@@ -10,4 +10,6 @@
     we get (y-0.5)/y, then substitute y = 0.7 into the equation, answer will be (0.7-0.5)/0.7 = 2/7.
 32. fy(y) = integrate 4xy by dx from 0 to 1 = 4x^2y/2 = 2y, in the same way, fx(x) = 2x, cov(x,y) = E[XY] - E[X]E[Y], = integrate xy(4xy) by using dx and dy from 0 to 1,
     minus the integral of x(2x) and y(2y), = 4/9 - (2/3)*(2/3) = 0
-33. 
+33. P(X=0) = Gx(0) = 1/(2-0) = 1/2, P(X=1) = G'x(0) = 1/(2-0)^2 = 1/4, 1/2+1/4 = 3/4
+34. For moment generating function, E[x] = first derivative of the function with regards of t = 0, so E[x] = 1/(1-0)^2 = 1, Var(x) = E[x^2] - (E[x])^2, E[x^2] = second
+    derivative of the function = 2/(1-0)^3 = 2, Var(x) = 2 - (1)^2 = 1. 
